@@ -85,13 +85,13 @@ footer a {
   margin: 5px;
 }
 
-@media (max-width:1000px) {
+@media (max-width:750px) {
 
   @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Mate+SC&display=swap');
 
   body{
     padding: 5%;
-    background-image:url("mobile.jpg");
+    background-image:url("https://img.wallpaper.sc/iphone5s/images/iphone5s-744x1392-wallpaper_02798.jpg");
     background-repeat: no-repeat;
     background-size:auto;
 
@@ -127,7 +127,15 @@ footer a {
     border-radius: 4px;
     text-align: center;
   }
-
+  h3{
+    font-size: 1.2rem;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Mate SC', serif;
+  }
 
 
 

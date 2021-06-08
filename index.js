@@ -35,7 +35,7 @@ function  Encrypt_compute()
     return output;
   };
   var caesarShift =encypt(str, amount)
-  document.getElementById("result").innerHTML = '<h3 >Encrypted Text for  "'+str +'" is : <span ><strong>' + caesarShift + '</strong></span></h3>'
+  document.getElementById("result").innerHTML = '<h3>Encrypted Text for  "'+str +'" is "' + caesarShift + '"</h3>'
 }
 
 function  Decrypt_compute()
