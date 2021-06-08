@@ -1,8 +1,8 @@
 function  Encrypt_compute()
 {
   var str = document.getElementById("encrypt").value;
-  var amount=4;
-
+  var amount=parseInt(document.getElementById("ip").value);
+  console.log(typeof(amount))
    function encypt (str, amount){
 
     // Wrap the amount
@@ -42,7 +42,7 @@ function  Decrypt_compute()
 {
   var code = document.getElementById("decrypt").value;
   var str=code.toUpperCase();
-  var amount=4;
+  var amount=parseInt(document.getElementById("ip").value);
 
    function encypt (str, amount){
      if(str===''){
@@ -83,7 +83,7 @@ function  Decrypt_compute()
   };
   var caesarShift =encypt(str, amount)
 
-document.getElementById("result").innerHTML = '<h3 >Decrypted Text for  "'+code +'" is : <span><strong>' + caesarShift + '</strong></span></h3>'
+document.getElementById("result").innerHTML = '<h3>Decrypted Text for  "'+code +'" is "' + caesarShift + '"</h3>'
 }
 
 

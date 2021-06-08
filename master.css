@@ -84,7 +84,13 @@ footer a {
 .social {
   margin: 5px;
 }
-
+#ip{
+  width: 20%;
+  height: 2%;
+}
+option{
+  text-align: center;
+}
 @media (max-width:750px) {
 
   @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Mate+SC&display=swap');
@@ -136,7 +142,10 @@ footer a {
     color: white;
     font-family: 'Mate SC', serif;
   }
+  #ip{
+    visibility: hidden;
 
+  }
 
 
 }
